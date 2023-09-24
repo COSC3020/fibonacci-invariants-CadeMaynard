@@ -28,6 +28,10 @@ Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
 
+## Invariant Response
+
+The Invariant I have chosen is that arr[2 ... (arr.length - 1 - i)] is populated with the correlated section of the Fibonacci sequence. For example, if arr.length - 1 - i = 5, the array would be arr = (1,2,3,5). I would claim that it is from index zero to this given upper bound but due to the order these actions are carried out in the code, that isn't necessarily true. This is a functioning invariant because in my code, each time the recursive function is called i is decremented. Eventually, our array has the whole sequence from two to the inputted value and at this point the algorithm's function is complete.
+
 ### Sources:
 - https://www.w3schools.com/js/js_switch.asp
 - https://www.geeksforgeeks.org/how-to-initialize-an-array-in-javascript/
