@@ -27,3 +27,9 @@ about it at the start of each recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+### Sources:
+- https://www.w3schools.com/js/js_switch.asp
+- https://www.geeksforgeeks.org/how-to-initialize-an-array-in-javascript/
+- https://stackoverflow.com/questions/4852017/how-to-initialize-an-arrays-length-in-javascript
+- https://stackoverflow.com/questions/2312817/javascript-switch-with-logical-operators
